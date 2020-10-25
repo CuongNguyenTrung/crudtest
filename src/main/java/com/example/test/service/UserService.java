@@ -24,6 +24,6 @@ public class UserService {
     }
 
     public List<Order> getOrdersByIdUser(int id) {
-        return orderRepository.getOrderByIdUser(id);
+        return orderRepository.getOrderByIdUser (id);
     }
 }
